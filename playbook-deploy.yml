@@ -3,7 +3,7 @@
   hosts: ec2
   become: yes
   vars:
-    repo_url: <YOUR_GITHUB_REPO_URL>
+    repo_url: https://github.com/Spike1307/3050-Week12-Workshop
     deploy_dir: /opt/project
   tasks:
     - name: Install Docker and Git
